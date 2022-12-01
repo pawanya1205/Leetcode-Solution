@@ -11,11 +11,6 @@ public:
         if(s[i]=='a'||s[i]=='A'||s[i]=='e'||s[i]=='E'||s[i]=='i'||s[i]=='I'||s[i]=='o'||s[i]=='O'||s[i]=='u'||s[i]=='U')
             cnt2++;
     }
-    if(cnt1==cnt2){
-        return true;
-    }
-        else{
-            return false;
-        }
+   return cnt1==cnt2;
     }
 };
